@@ -1,0 +1,47 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faGithub,
+    faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+
+export const Footer = () => {
+    return (
+        <footer className="border-t border-border bg-background text-foreground">
+            <div className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-8 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                    <p className="text-sm font-semibold text-foreground">
+                        Alayande Al-amin
+                    </p>
+
+                    <p className="mt-1 text-xs text-muted">
+                        Building software and learning how systems work.
+                    </p>
+                </div>
+
+                <div className="flex items-center gap-5">
+                    <a
+                        href="https://github.com/Alayande31"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
+                        className="text-muted transition hover:text-foreground"
+                    >
+                        <FontAwesomeIcon icon={faGithub} />
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="LinkedIn"
+                        className="text-muted transition hover:text-foreground"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+
+                    <span className="text-xs text-muted">
+                        © {new Date().getFullYear()} Alayande Al-amin
+                    </span>
+                </div>
+            </div>
+        </footer>
+    );
+};
+
