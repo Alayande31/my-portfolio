@@ -41,6 +41,7 @@ export const HomePage = () => {
                         <div className="mt-8 flex flex-wrap gap-4">
                             <a
                                 href="/projects"
+                                rel="noopener noreferrer"
                                 className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white no-underline transition hover:opacity-90"
                             >
                                 View my work
@@ -49,6 +50,7 @@ export const HomePage = () => {
 
                             <a
                                 href="/about"
+                                rel="noopener noreferrer"
                                 className="rounded-xl border border-border bg-surface px-5 py-3 text-sm font-semibold text-foreground no-underline transition hover:bg-surface-hover"
                             >
                                 About me
