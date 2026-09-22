@@ -115,7 +115,7 @@ export const AboutPage = () => {
                         <div className="mx-auto w-full max-w-xs lg:mx-0 lg:ml-auto">
                             <div className="overflow-hidden rounded-2xl border border-border bg-surface">
                                 <img
-                                    src=""
+                                    src="V.jpg"
                                     className="aspect-[4/5] w-full object-cover"
                                 />
                             </div>

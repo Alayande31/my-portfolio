@@ -28,14 +28,7 @@ export const Footer = () => {
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
 
-                    <a
-                        href="#"
-                        aria-label="LinkedIn"
-                        className="text-muted transition hover:text-foreground"
-                    >
-                        <FontAwesomeIcon icon={faLinkedin} />
-                    </a>
-
+                  
                     <span className="text-xs text-muted">
                         © {new Date().getFullYear()} Alayande Al-amin
                     </span>
