@@ -12,8 +12,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import {
     faGithub,
-    faLinkedin,
-    faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { allCredentials } from "../constant";
 
