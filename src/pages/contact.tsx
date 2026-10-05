@@ -307,7 +307,66 @@ useEffect(() => {
                                 />
                             </div>
 
-                           
+                            {/* Message */}
+                            <div>
+                                <label
+                                    htmlFor="message"
+                                    className="mb-2 block text-sm font-medium text-foreground"
+                                >
+                                    Message
+                                </label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    required
+                                    rows={6}
+                                    placeholder="Tell me a little about your project..."
+                                    className="
+                                        w-full
+                                        resize-none
+                                        rounded-xl
+                                        border border-border
+                                        bg-background
+                                        px-4 py-3
+                                        text-sm
+                                        text-foreground
+                                        outline-none
+                                        placeholder:text-muted
+                                        transition
+                                        focus:border-primary
+                                    "
+                                />
+                            </div>
+
+                            {/* Submit */}
+                            <button
+                                type="submit"
+                                disabled={isSending}
+                                className="
+                                    inline-flex
+                                    w-full
+                                    items-center
+                                    justify-center
+                                    gap-2
+                                    rounded-xl
+                                    bg-primary
+                                    px-5 py-3
+                                    text-sm
+                                    font-semibold
+                                    text-white
+                                    transition
+                                    hover:opacity-90
+                                    disabled:cursor-not-allowed
+                                    disabled:opacity-60
+                                "
+                            >
+                                <FontAwesomeIcon icon={faPaperPlane} />
+
+                                {isSending
+                                    ? "Sending..."
+                                    : "Send Message"}
+                            </button>
                         </form>
                     </div>
                 </div>
