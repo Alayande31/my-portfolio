@@ -66,7 +66,7 @@ export const HomePage = () => {
                             </a>
 
                             <a
-                                href="#"
+                                href=""
                                 aria-label="LinkedIn"
                                 className="text-text-muted transition hover:text-foreground"
                             >

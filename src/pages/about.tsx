@@ -163,10 +163,6 @@ export const AboutPage = () => {
                                     <p className="mt-1 text-xs text-text-secondary md:text-sm">
                                         Chyfley Comprehensive College.
                                     </p>
-
-                                    <p className="mt-1 text-xs text-text-secondary">
-                                        CGPA: 4.34/5 &nbsp; (2:1 Equivalent)
-                                    </p>
                                 </div>
                             </div>
 
@@ -181,7 +177,7 @@ export const AboutPage = () => {
 
                                 <div>
                                     <h3 className="text-sm font-semibold text-foreground md:text-base">
-                                        Full-stack Developer (Personal
+                                        WEB DEVELOPER (Personal
                                         Projects)
                                     </h3>
 
