@@ -41,7 +41,7 @@ export const HomePage = () => {
 
                         <div className="mt-8 flex flex-wrap gap-4">
                             <a
-                                href="project.tsx"
+                                href="projects.tsx"
                                 className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white no-underline transition hover:opacity-90"
                             >
                                 View my work
